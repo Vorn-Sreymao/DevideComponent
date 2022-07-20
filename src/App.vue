@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <FriendNav/>,
+  <FriendForm/>,
+  <FriendCard/>,
+  
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import FriendNav from "./components/FriendNavbar.vue";
+import FriendForm from "./components/FriendFormView.vue";
+import FriendCard from "./components/FriendCardView.vue";
 export default {
-  name: 'App',
+
   components: {
-    HelloWorld
+    FriendNav,
+    FriendForm,
+    FriendCard,
   }
 }
 </script>
